@@ -1,0 +1,20 @@
+{
+  "name": "hero-chat",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "underscore": "^1.9.1"
+  },
+  "proxy": "http://localhost:3001",
+  "scripts": {
+    "start": "npm install && cd server && npm install && cd .. && concurrently \"react-scripts start\" \"node server/index.js\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

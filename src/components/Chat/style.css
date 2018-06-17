@@ -1,0 +1,43 @@
+#messageText {
+	width:100%;
+	height:35px;
+}
+
+#sendMessageTextBtn {
+	width:100%;
+	height:35px;
+}
+
+#roomContainer {
+	height:500px;
+	border:1px solid black;
+}
+
+#onlineContainer {
+	height:500px;
+	border:1px solid black;
+}
+
+#messageContainer {
+	height:500px;
+	border:1px solid black;
+	text-align:left;
+	padding:10px;
+}
+
+.room:hover {
+	background-color:lightblue;
+}
+
+.room {
+	margin-bottom:10px;
+	width:80%;
+}
+
+.activeRoom {
+	background-color:lightblue;
+}
+
+#newRoomContainer {
+	margin:20px 0px;
+}

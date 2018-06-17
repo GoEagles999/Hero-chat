@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "REST API for chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoEagles999/Hero-chat.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Richard Demeny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoEagles999/Hero-chat/issues"
+  },
+  "homepage": "https://github.com/GoEagles999/Hero-chat#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
